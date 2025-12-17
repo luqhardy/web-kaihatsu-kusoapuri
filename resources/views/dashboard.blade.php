@@ -10,8 +10,11 @@
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     {{ __("You're logged in!") }}
+
                 </div>
             </div>
+            <button onclick="location.href='/'"
+                class="mt-4 px-4 py-2 bg-black text-white rounded hover:opacity-80 font-bold">トップへ戻る</button>
         </div>
     </div>
 </x-app-layout>

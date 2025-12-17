@@ -17,4 +17,10 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
+
+use App\Http\Controllers\QuizController;
+
+Route::get('/quiz', [QuizController::class, 'index'])
+    ->middleware(['auth', 'verified'])
+    ->name('quiz');
