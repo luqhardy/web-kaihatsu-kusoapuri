@@ -26,5 +26,17 @@ Route::get('/quiz', [QuizController::class, 'index'])
     ->name('quiz');
 
 use App\Http\Controllers\ExamController;
+use App\Http\Controllers\AhoController;
 
 Route::get('/exam', [ExamController::class, 'show'])->name('exam.show');
+
+Route::middleware(['auth', 'verified'])->prefix('aho')->name('aho.')->group(function () {
+    Route::get('/', [AhoController::class, 'index'])->name('index');
+    Route::post('/start', [AhoController::class, 'start'])->name('start');
+    Route::get('/quiz/{part}', [AhoController::class, 'quiz'])->name('quiz');
+    Route::post('/quiz/{part}', [AhoController::class, 'store'])->name('store');
+    Route::get('/intermediate', [AhoController::class, 'intermediate'])->name('intermediate');
+    Route::get('/loading', [AhoController::class, 'loading'])->name('loading');
+    Route::get('/result', [AhoController::class, 'result'])->name('result');
+});
+
