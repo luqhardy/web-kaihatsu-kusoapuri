@@ -24,3 +24,7 @@ use App\Http\Controllers\QuizController;
 Route::get('/quiz', [QuizController::class, 'index'])
     ->middleware(['auth', 'verified'])
     ->name('quiz');
+
+use App\Http\Controllers\ExamController;
+
+Route::get('/exam', [ExamController::class, 'show'])->name('exam.show');
