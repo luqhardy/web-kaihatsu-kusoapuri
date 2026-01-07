@@ -33,10 +33,7 @@
                     <p class="text-gray-600 text-sm">ログイン中</p>
                     <p class="font-bold text-lg text-gray-800">{{ Auth::user()->name }}</p>
                 </div>
-                <a href="/quiz"
-                    class="block w-full text-center font-bold text-white bg-black hover:bg-gray-800 py-4 rounded-lg transition-all shadow-md">
-                    クイズスタート
-                </a>
+
 
                 <!-- Logout Form -->
                 <form method="POST" action="{{ route('logout') }}" class="w-full">
