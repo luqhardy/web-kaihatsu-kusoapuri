@@ -79,7 +79,7 @@
 
         <!-- Aho App -->
         <div
-            class="bg-gray-900 text-white p-8 rounded-2xl shadow-xl flex flex-col items-center justify-between gap-4 border-t-4 border-red-600 relative overflow-hidden transition-transform hover:scale-[1.02]">
+            class="bg-gray-900 text-white p-8 rounded-2xl shadow-xl flex flex-col items-center justify-between gap-4 border-t-4 border-red-600 relative overflow-hidden transition-transform hover:scale-[1.02] w-full      ">
             <div class="w-full text-center">
                 <h2 class="font-bold text-2xl mb-2 text-red-500">IQ精密検査</h2>
                 <p class="text-gray-400 text-sm">AIがあなたの知能指数を正確に測定します。<br>※カメラ必須</p>
