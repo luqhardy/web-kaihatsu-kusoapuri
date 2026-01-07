@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>アホ特定アプリ</title>
+    <title>IQ精密検査</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,12 +14,12 @@
 
 <body class="bg-gray-50 flex flex-col justify-center items-center min-h-screen font-noto text-gray-800 p-4">
     <div class="text-center mb-12">
-        <h1 class="font-black text-6xl mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-            アホ特定アプリ
+        <!--<h1 class="font-black text-6xl mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+            IQ精密検査
         </h1>
         <p class="text-xl text-gray-600 font-bold">
             (仮)
-        </p>
+        </p>-->
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-1 gap-8 max-w-6xl w-full">
