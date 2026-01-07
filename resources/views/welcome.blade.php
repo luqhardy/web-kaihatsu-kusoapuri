@@ -25,7 +25,7 @@
     <div class="grid grid-cols-1 md:grid-cols-1 gap-8 max-w-6xl w-full">
         <!-- Main Actions -->
         <div
-            class="bg-white p-8 rounded-2xl shadow-xl flex flex-col items-center gap-4 transition-transform hover:scale-[1.02] h-100">
+            class="bg-white p-8 rounded-2xl shadow-xl flex flex-col items-center gap-4 transition-transform hover:scale-[1.02]">
             <h2 class="font-bold text-2xl mb-4 text-gray-800 border-b-2 border-gray-100 pb-2 w-full text-center">メインメニュー
             </h2>
             @auth
