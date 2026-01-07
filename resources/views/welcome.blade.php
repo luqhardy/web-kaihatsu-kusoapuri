@@ -22,10 +22,10 @@
         </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full">
+    <div class="grid grid-cols-1 md:grid-cols-1 gap-8 max-w-6xl w-full">
         <!-- Main Actions -->
         <div
-            class="bg-white p-8 rounded-2xl shadow-xl flex flex-col items-center gap-4 transition-transform hover:scale-[1.02]">
+            class="bg-white p-8 rounded-2xl shadow-xl flex flex-col items-center gap-4 transition-transform hover:scale-[1.02] h-100">
             <h2 class="font-bold text-2xl mb-4 text-gray-800 border-b-2 border-gray-100 pb-2 w-full text-center">メインメニュー
             </h2>
             @auth
@@ -59,7 +59,7 @@
             @endauth
         </div>
 
-        <!-- New Feature -->
+        <!-- New Feature 
         <div
             class="bg-white p-8 rounded-2xl shadow-xl flex flex-col items-center justify-between gap-4 border-t-4 border-blue-600 relative overflow-hidden transition-transform hover:scale-[1.02]">
             <div class="absolute -right-6 -top-6 bg-red-500 text-white font-bold px-8 py-1 rotate-45 shadow-sm text-sm">
@@ -78,7 +78,7 @@
                 class="block w-full text-center font-bold text-white bg-blue-600 hover:bg-blue-700 py-4 rounded-lg shadow-md hover:shadow-lg transition-all transform hover:-translate-y-1">
                 ITパスポート試験 (疑似)
             </a>
-        </div>
+        </div>-->
 
         <!-- Aho App -->
         <div
